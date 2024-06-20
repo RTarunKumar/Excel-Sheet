@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+table{
+    border-collapse: collapse;
+}
+th, td{
+    min-width: 45px;
+    border: 1px solid #333;
+}
+td{
+    outline: none;
+}
+#display-bar{
+    display: inline-block;
+}
+.table-top-container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#bold-btn{
+    font-weight: bold;
+    padding: 4px;
+}
+#italic-btn{
+    font-style: italic;
+    padding: 4px;
+}
+#underline-btn{
+    text-decoration: underline; 
+    padding: 4px;
+}
+/* #left-btn{
+    text-align: left;
+}
+#center-btn{
+    text-align: center;
+}
+#right-btn{
+    text-align: right;
+} */
